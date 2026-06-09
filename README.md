@@ -23,7 +23,7 @@ Você pode conferir o código SQL completo [clicando aqui no arquivo limpeza_dad
 
 *(Demonstração do painel com filtros por plataforma ativados).*
 
-##  Principais Insights (O que descobrimos)
+##  Principais Insights 
 Através da análise, as respostas foram as seguintes::
 * **Choque Cultural:** Enquanto a América do Norte e a Europa dominam o consumo de jogos de tiro e ação, o mercado Japonês tem uma preferência esmagadora por jogos de **RPG**.
 * **A Força da Nostalgia:** O gráfico de linha do tempo revela que consoles como o PS2 tiveram picos de vendas mais altos e duradouros do que muitos hardwares modernos, mostrando uma janela para lançamentos de jogos *Remasterizados*.
