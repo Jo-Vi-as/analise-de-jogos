@@ -16,7 +16,6 @@ Antes de construir o painel, a base de dados bruta (com mais de 16 mil registros
 Você pode conferir o código SQL completo [clicando aqui no arquivo limpeza_dados.sql].
 
 ##  O Dashboard
-<iframe title="dashboard_vendas" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYmU3NTNhYjUtYzk4NS00YThlLWE2ODAtZjUyZGNiOGYxNzA0IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
 
 *Abaixo estão as visualizações criadas para responder ao problema de negócio.*
 <img width="1420" height="746" alt="image" src="https://github.com/user-attachments/assets/f445ac43-8bc6-4dbd-af9c-b507ed9a47ce" />
