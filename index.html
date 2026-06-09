@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio de BI - Análise de Games</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; color: #333; }
+        h1, h2 { color: #1a1a1a; }
+        pre { background: #f4f4f4; padding: 15px; border-left: 5px solid #0078d4; overflow-x: auto; }
+        .dashboard-container { text-align: center; margin: 30px 0; }
+    </style>
+</head>
+<body>
+
+    <h1>🎮 Análise Global de Vendas de Videogames (Business Intelligence)</h1>
+
+    <h2>📌 O Desafio de Negócio</h2>
+    <p>Fui contratado de forma fictícia por uma publicadora de jogos europeia que deseja expandir suas operações globais. O objetivo da análise foi investigar o histórico de vendas de videogames para responder a três perguntas cruciais para o time de marketing: quais gêneros são mais rentáveis, como se comporta o ciclo de vida dos consoles e as diferenças de consumo entre as regiões.</p>
+
+    <h2>🛠️ Ferramentas Utilizadas</h2>
+    <ul>
+        <li><strong>Banco de Dados & SQL:</strong> Extração e limpeza de dados (ETL).</li>
+        <li><strong>Microsoft Power BI:</strong> Criação de painel interativo e modelagem de dados.</li>
+    </ul>
+
+    <h2>🧹 A Limpeza dos Dados (ETL em SQL)</h2>
+    <p>Antes de construir o painel, tratei os dados brutos usando SQL para remover registros sem ano de lançamento ou sem publicadora.</p>
+    <pre>
+CREATE VIEW vw_vendas_limpas AS
+SELECT Rank, Name AS Nome_Jogo, Platform AS Plataforma, Year AS Ano_Lancamento...
+    </pre>
+
+    <h2>📊 O Dashboard Interativo</h2>
+    <p>Utilize os filtros de plataforma e clique nas barras para interagir com os dados em tempo real:</p>
+    
+    <div class="dashboard-container">
+    <iframe title="dashboard_vendas" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYmU3NTNhYjUtYzk4NS00YThlLWE2ODAtZjUyZGNiOGYxNzA0IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+
+    <h2>💡 Principais Insights</h2>
+    <ul>
+        <li><strong>Choque Cultural:</strong> O mercado Japonês tem uma preferência esmagadora por RPGs, enquanto o Ocidente prefere Tiro e Ação.</li>
+        <li><strong>A Força da Nostalgia:</strong> Consoles clássicos como o PS2 mantiveram picos de vendas longos, abrindo janelas fantásticas para relançamentos digitais.</li>
+    </ul>
+
+</body>
+</html>
